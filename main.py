@@ -21,5 +21,5 @@ for index, row in df.iterrows():
     time.sleep(1)
 
 
-with open('data/all_domain_data.h5', 'w') as f:
+with open('data/all_domain_data.h5', 'wb') as f:
     pickle.dump(all_website_data, f)
